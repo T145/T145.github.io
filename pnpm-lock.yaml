@@ -1,7 +1,10 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@angular-devkit/architect': ^0.1301.3
   '@angular-devkit/build-angular': ~13.1.3
+  '@angular-devkit/core': ^13.1.3
+  '@angular-devkit/schematics': ^13.1.3
   '@angular/animations': ~13.1.0
   '@angular/cli': ~13.1.3
   '@angular/common': ~13.1.0
@@ -41,12 +44,15 @@ dependencies:
   zone.js: 0.11.4
 
 devDependencies:
+  '@angular-devkit/architect': 0.1301.3
   '@angular-devkit/build-angular': 13.1.3_99e24f136b8ff9ee34add836469b068b
+  '@angular-devkit/core': 13.1.3
+  '@angular-devkit/schematics': 13.1.3
   '@angular/cli': 13.1.3
   '@angular/compiler-cli': 13.1.2_d640280ca8872bc19898946029dbfd01
   '@types/jasmine': 3.10.3
   '@types/node': 12.20.41
-  angular-cli-ghpages: 1.0.0
+  angular-cli-ghpages: 1.0.0_e21f68ef4f54b22546c039e5e54e289a
   jasmine-core: 3.10.1
   karma: 6.3.11
   karma-chrome-launcher: 3.1.0
@@ -2040,7 +2046,7 @@ packages:
       uri-js: 4.4.1
     dev: true
 
-  /angular-cli-ghpages/1.0.0:
+  /angular-cli-ghpages/1.0.0_e21f68ef4f54b22546c039e5e54e289a:
     resolution: {integrity: sha512-TUmAPOP/a8dzOC0D5juBnxeWQzx7DXz1WNvoOijDpbPGYFcQJKSsnsjk+Wx5aydbXvzS4YuE7Nh2VvfEKlLa+Q==}
     hasBin: true
     peerDependencies:
@@ -2048,6 +2054,9 @@ packages:
       '@angular-devkit/core': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0
       '@angular-devkit/schematics': ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0
     dependencies:
+      '@angular-devkit/architect': 0.1301.3
+      '@angular-devkit/core': 13.1.3
+      '@angular-devkit/schematics': 13.1.3
       commander: 3.0.2
       fs-extra: 9.1.0
       gh-pages: 3.2.3

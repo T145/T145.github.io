@@ -1,6 +1,11 @@
-# GithubDocs
+# GitHub Docs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+## Setup
+
+```
+pnpm add angular-cli --global
+ng config -g cli.packageManager pnpm
+```
 
 ## Development server
 
